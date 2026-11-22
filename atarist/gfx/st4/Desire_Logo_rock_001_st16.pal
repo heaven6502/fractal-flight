@@ -1,0 +1,2 @@
+; Desire_Logo_rock_001.png: the 16 ST colours of the 320 x 200 intro picture (0RGB, 3 bits per channel, darkest first)
+	dc.w $0111, $0211, $0221, $0222, $0321, $0322, $0232, $0233, $0332, $0431, $0432, $0443, $0554, $0677, $0776, $0777

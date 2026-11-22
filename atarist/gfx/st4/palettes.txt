@@ -1,0 +1,13 @@
+; ST palette entries (0RGB, 3 bits per channel) of the 4 colour backgrounds, darkest first = colour 0
+3dbackground             $0100 $0420 $0641 $0765   (crop mid)
+Desire_Logo_rock_001     $0100 $0421 $0553 $0777   (crop mid)
+Desire_Logo_rock_003     $0455 $0556 $0566 $0666   (crop mid)
+MS_Sky                   $0111 $0222 $0342 $0553   (crop mid)
+earthworm16c             $0201 $0403 $0514 $0616   (crop mid)
+planet_bg_blue           $0000 $0133 $0455 $0777   (crop mid)
+planet_bg_purple         $0000 $0322 $0645 $0777   (crop mid)
+small_planets_bg         $0110 $0421 $0643 $0766   (crop mid)
+spacebg_6b               $0110 $0522 $0554 $0776   (crop mid)
+voxel_background2        $0000 $0321 $0257 $0577   (crop mid)
+desire_logo              $0222 $0321 $0443 $0777   (already 4 colours, 320x160)
+Sky                      $0122 $0222 $0332 $0442   (already 4 colours, 320x185)

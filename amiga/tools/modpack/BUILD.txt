@@ -1,0 +1,5 @@
+modpack (github.com/amigadev/modpack): ProTracker .mod -> The Player 6.1A (.p61) converter.
+modpack.exe is built for Windows (WinLibs mingw gcc).  Rebuild:
+  mingw32-make CC=gcc CCFLAGS="-Ishim -O2 -include winsock2.h" LDFLAGS="-lws2_32"
+(shim/ has empty arpa/inet.h and netinet/in.h that pull in winsock2.h; needs xxd on PATH)
+Use:  modpack.exe -in:mod "music/treasure island.mod" -out:p61a music/treasure_island.p61

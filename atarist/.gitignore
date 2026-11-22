@@ -1,0 +1,49 @@
+# toolchain and downloads (see docs/07-tos-software-tools.md for how they were installed)
+tools/dl/
+tools/src/
+tools/host/*.exe
+tools/host/obj/
+# build products
+obj/
+out/
+*.o
+*.d
+*.prg
+# emulator runs: screenshots, traces, generated debugger scripts
+run/shots/
+run/seq/
+run/blue*/
+run/*.log
+run/*.png
+run/*.ini
+run/*.ppm
+run/*.wav
+__pycache__/
+*.ppm
+.claude/
+run/*.html
+run/*.txt
+src/hello.s
+src/hellog.c
+run/eb.map
+tools/ap/*.exe
+tools/ap/*.xex
+tools/ap/*.lst
+tools/ap/cases.txt
+tools/ap/atari_fly.txt
+tools/ap/__pycache__/
+tools/gfx/bg_preview.png
+
+# scratch dumps of the depth band debugging
+run/*.bin
+run/*.done
+Screenshot*.png
+
+# the 95 MB AmigaKlang package stays local
+music/AmigaKlang/
+run/*.out
+run/fprof.map
+
+# the toolchain is tracked in full
+!tools/bin/**
+!tools/mintelf/**

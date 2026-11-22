@@ -1,0 +1,2 @@
+; Sky.png: the 4 ST colours (0RGB, 3 bits per channel, darkest first), already a 4 colour image (320x185)
+	dc.w $0122, $0222, $0332, $0442

@@ -1,0 +1,2 @@
+; earthworm16c.png: the 4 ST colours (0RGB, 3 bits per channel, darkest first), crop mid
+	dc.w $0201, $0403, $0514, $0616

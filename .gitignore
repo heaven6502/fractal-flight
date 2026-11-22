@@ -1,0 +1,27 @@
+# build output
+obj/
+objz/
+objuw/
+out/
+*.o
+*.d
+*.exe
+*.prg
+*.elf
+*.map
+*.adf
+# toolchains and downloads (see atarist/docs/07-tos-software-tools.md)
+atarist/tools/dl/
+atarist/tools/src/
+# emulator runs / scratch
+atarist/run/shots/
+atarist/run/*.log
+atarist/run/*.png
+atarist/run/*.ini
+atarist/run/*.bin
+__pycache__/
+*.pdb
+
+# the Atari ST cross toolchain is part of the repository (GCC 15 mintelf, vasm, vlink, upx)
+!atarist/tools/bin/**
+!atarist/tools/mintelf/**

@@ -1,0 +1,10 @@
+# build output
+obj/
+out/
+*.exe
+*.elf
+*.map
+# host test binaries and scratch
+test/*.exe
+__pycache__/
+*.pdb

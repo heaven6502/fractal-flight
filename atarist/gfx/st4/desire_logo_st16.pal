@@ -1,0 +1,4 @@
+; desire_logo.png: the 16 ST colours of the 320 x 200 intro picture (0RGB, 3 bits per channel, darkest first)
+	dc.w $0000, $0200, $0211, $0310, $0222, $0321, $0421, $0233, $0332, $0443, $0542, $0543, $0554, $0665, $0666, $0777
+; the STE palette (4 bits per channel, plain 0RGB nibbles: the program turns them into the STE register format)
+	dc.w $0000, $0300, $0332, $0521, $0544, $0543, $0853, $0556, $0765, $0986, $0B84, $0A86, $0AA9, $0DCA, $0CCC, $0FFF

@@ -1,0 +1,2 @@
+; Desire_Logo_rock_003.png: the 4 ST colours (0RGB, 3 bits per channel, darkest first), crop mid
+	dc.w $0455, $0556, $0566, $0666

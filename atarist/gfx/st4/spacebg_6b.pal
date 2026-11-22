@@ -1,0 +1,2 @@
+; spacebg_6b.png: the 4 ST colours (0RGB, 3 bits per channel, darkest first), crop mid
+	dc.w $0110, $0522, $0554, $0776
