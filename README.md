@@ -12,6 +12,16 @@ Idea by Heaven, title screen by Lowlife, vibe coded with Claude Code on top of d
 
 Both programs share the same C core (`flight_core.c`, `planetgen.c`, `palgen.c`, `font_antic.c`, `scrolltext.inc` with a per-machine text) - verified against the original game.
 
+## Ready-made binaries (`release/`)
+| File | What |
+|---|---|
+| `release/amiga/flight320_laser.exe` / `.adf` | **the full Amiga demo**: houses + lasers (the ADF boots on an A500 / A600, KS 1.3+) |
+| `release/amiga/flight320_bk.*` | with houses, no lasers |
+| `release/amiga/flight320.*` | the plain flight |
+| `release/atarist/f320lz.prg` | **the full ST demo**: houses + lasers (plain 1 MB ST, low resolution) |
+| `release/atarist/f320bk.prg` | with houses, no lasers |
+| `release/atarist/flight320.prg` | the plain flight |
+
 ## Amiga
 Needs the VS Code extension *BartmanAbyss.amiga-debug* (GCC, vasm, elf2hunk, exe2adf), Amiberry and a Kickstart ROM. Paths are overridable: `BARTMAN`, `AMIBERRY`, `KICKSTART`.
 

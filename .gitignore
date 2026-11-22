@@ -25,3 +25,6 @@ __pycache__/
 # the Atari ST cross toolchain is part of the repository (GCC 15 mintelf, vasm, vlink, upx)
 !atarist/tools/bin/**
 !atarist/tools/mintelf/**
+
+# the ready-made binaries
+!release/**
